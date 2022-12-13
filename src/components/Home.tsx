@@ -5,6 +5,7 @@ import BlogImage2  from '../assets/blog-image2.jpg'
 import AuthorImage2 from '../assets/author-image2.jpg'
 import BlogImage3 from '../assets/blog-image3.jpg'
 import BlogImage4 from '../assets/blog-image4.jpg'
+import { Footer } from './Footer';
 const home = () => {
   return (
     <div>
@@ -293,6 +294,7 @@ const home = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 };
