@@ -1,11 +1,148 @@
-import React from 'react'
-
+import React from 'react';
+import AboutImage from '../assets/about-image.jpg';
+import AboutImage1 from '../assets/about-image1.jpg';
+import AboutImage2 from '../assets/about-image2.jpg';
+import AboutImage3 from '../assets/about-image3.jpg';
+import { Footer } from './Footer';
 const About = () => {
   return (
     <div>
-      About Page
-    </div>
-  )
-}
+      {/* <!-- Home Section --> */}
 
-export default About
+      <section id='home' className='main-about parallax-section'>
+        <div className='overlay'></div>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-12 col-sm-12'>
+              <h1>About Us</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* <!-- About Section --> */}
+
+      <section id='about'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-offset-1 col-md-10 col-sm-12'>
+              <div className='col-md-4 col-sm-4'>
+                <h2>Our Story</h2>
+                <p>
+                  Integer eget tortor justo. Vestibulum ante ipsum primis in
+                  faucibus orci luctus et ultrices posuere cubilia.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit{' '}
+                  <strong>Ut enim ad minim veniam, quis nostrud</strong>{' '}
+                  exercitation ullamco.
+                </p>
+              </div>
+
+              <div className='col-md-4 col-sm-4'>
+                <h2>New Design</h2>
+                <p>
+                  Quisque vitae felis eros. Suspendisse quis leo molestie,
+                  iaculis sapien id, hendrerit augue. Phasellus fermentum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit Ut
+                  enim ad minim veniam, quis nostrud exercitation.
+                </p>
+              </div>
+
+              <div className='col-md-4 col-sm-4'>
+                <h2>HTML CSS</h2>
+                <p>
+                  Vivamus non scelerisque ex, et interdum leo. In bibendum lacus
+                  vitae felis egestas, at consectetur metus facilisis.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit Ut
+                  enim ad minim veniam, quis nostrud exercitation.
+                </p>
+              </div>
+
+              <div className='col-md-6 col-sm-6'>
+                <h3>Fully Customizable!</h3>
+                <p>
+                  Maecenas quis pulvinar neque, non dapibus orci. Integer non
+                  suscipit dui. In eu tempor sapien. Pellentesque habitant morbi
+                  tristique senectus et netus et malesuada fames ac turpis
+                  egestas. Cras porta lacus ac sagittis imperdiet. Vestibulum
+                  eget mattis quam.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercita.
+                </p>
+              </div>
+
+              <div className='col-md-6 col-sm-6'>
+                <img
+                  src={AboutImage}
+                  className='img-responsive'
+                  alt='About Images'
+                />
+              </div>
+
+              <div className='clearfix'></div>
+
+              <div className='col-md-4 col-sm-4'>
+                <img
+                  src={AboutImage1}
+                  className='img-responsive'
+                  alt='Blog Images'
+                />
+                <h3>Section One</h3>
+                <p>
+                  Pellentesque lobortis velit mi, sed volutpat enim facilisis
+                  at. Maecenas quis pulvinar neque, non dapibus orci.
+                </p>
+              </div>
+
+              <div className='col-md-4 col-sm-4'>
+                <img
+                  src={AboutImage2}
+                  className='img-responsive'
+                  alt='Blog Images'
+                />
+                <h3>Section Two</h3>
+                <p>
+                  Pellentesque lobortis velit mi, sed volutpat enim facilisis
+                  at. Maecenas quis pulvinar neque, non dapibus orci.
+                </p>
+              </div>
+
+              <div className='col-md-4 col-sm-4'>
+                <img
+                  src={AboutImage3}
+                  className='img-responsive'
+                  alt='Blog Images'
+                />
+                <h3>Section Three</h3>
+                <p>
+                  Pellentesque lobortis velit mi, sed volutpat enim facilisis
+                  at. Maecenas quis pulvinar neque, non dapibus orci.
+                </p>
+              </div>
+
+              <h3>One Column</h3>
+              <p>
+                Fusce finibus ac orci ut feugiat. Duis accumsan dui non augue
+                ullamcorper, at porta elit lacinia. Orci varius natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Cras at est non quam mattis hendrerit. Fusce purus massa,
+                pretium malesuada eros nec, feugiat iaculis sem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <Footer/>
+    </div>
+  );
+};
+
+export default About;

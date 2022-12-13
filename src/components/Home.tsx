@@ -1,10 +1,10 @@
 import React from 'react';
 import BlogBGImage1 from '../assets/blog-image1.jpg';
-import AuthorImage1 from '../assets/author-image1.jpg'
-import BlogImage2  from '../assets/blog-image2.jpg'
-import AuthorImage2 from '../assets/author-image2.jpg'
-import BlogImage3 from '../assets/blog-image3.jpg'
-import BlogImage4 from '../assets/blog-image4.jpg'
+import AuthorImage1 from '../assets/author-image1.jpg';
+import BlogImage2 from '../assets/blog-image2.jpg';
+import AuthorImage2 from '../assets/author-image2.jpg';
+import BlogImage3 from '../assets/blog-image3.jpg';
+import BlogImage4 from '../assets/blog-image4.jpg';
 import { Footer } from './Footer';
 const home = () => {
   return (
@@ -294,7 +294,7 @@ const home = () => {
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
