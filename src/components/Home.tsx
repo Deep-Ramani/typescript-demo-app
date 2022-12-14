@@ -96,7 +96,7 @@ const Home = () => {
                 type: 'circle',
               },
               size: {
-                value: 5,
+                value: 4,
               },
             },
             detectRetina: true,
